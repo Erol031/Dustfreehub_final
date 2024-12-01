@@ -1,0 +1,35 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: none;
+
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.logoHolder{
+    position: absolute;
+    left: 0;
+}
+
+.dustLogo{
+    height: auto;
+    width: 8em;
+}
+
+.navbar span{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navHolder{
+    display: flex;
+    gap: 2rem;
+}
